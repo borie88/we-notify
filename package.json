@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "borie88"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "deprecated": false,
+  "description": "Send template notifications for your mini programs",
+  "keywords": [
+    "WeChat",
+    "Mini Program",
+    "小程序"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "we-notify",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "dotenv": "^6.0.0"
+  }
+}
