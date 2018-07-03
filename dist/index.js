@@ -44,7 +44,7 @@ class WeNotify {
             throw Error (`Error sending notification: ${e}`)
         }
         if (res.status === 200) {
-            if (res.data.errcode && res.data.errcode === 0) {
+            if (res.data.errcode && res.data.errcode == 0) {
                 return true
             }
             throw Error (`Error sending notification: ${res.data.errcode} - ${res.data.errmsg}`)
